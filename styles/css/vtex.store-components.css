@@ -16,9 +16,9 @@
 .searchBarContainer input {
     height: 48px;
     border: 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #d3ac68;
     border-radius: 0;
-    color: #000;
+    color: #666;
 }
 
 .sellingPrice {
@@ -30,15 +30,16 @@
 }
 
 .newsletter {
-    background-color: #f1f1f1;
+    background-color: #fff;
+    border-top: 1px solid #d8d8d8;
 }
 
 .newsletter input {
     background: none;
     border: 0; 
     border-radius: 0;
-    border-bottom: 1px solid #000;
-    color: #000;
+    border-bottom: 1px solid #d3ac68;
+    color: #666;
 }
 
 .logoContainer {

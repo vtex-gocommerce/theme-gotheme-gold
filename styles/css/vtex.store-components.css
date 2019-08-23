@@ -14,11 +14,21 @@
 }
 
 .searchBarContainer input {
+    border: 0;
+    border-radius: 0;
+    color: #666;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
     height: 48px;
     border: 0;
     border-bottom: 1px solid #d3ac68;
-    border-radius: 0;
-    color: #666;
+    border-radius: 0px;
+    color: #000;
+}
+
+.subscriberContainer :global(.vtex-store-components-3-x-input), .subscriberContainer :global(.vtex-store-components-3-x-submit) {
+    display: none;
 }
 
 .sellingPrice {
@@ -36,10 +46,14 @@
 
 .newsletter input {
     background: none;
+    color: #666;
+}
+
+.newsletter :global(.vtex-input-prefix__group) {
+    height: 50px;
     border: 0; 
     border-radius: 0;
     border-bottom: 1px solid #d3ac68;
-    color: #666;
 }
 
 .logoContainer {

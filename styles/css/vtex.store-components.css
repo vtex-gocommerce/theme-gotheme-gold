@@ -51,37 +51,12 @@
 
 .newsletter :global(.vtex-input-prefix__group) {
     height: 50px;
-    border: 0; 
+    border: 0;
     border-radius: 0;
     border-bottom: 1px solid #d3ac68;
 }
 
-.logoContainer {
-    height: 70px;
-    max-height: 100px;
-    display: flex;
-    position: relative;
-    overflow: hidden;
-    padding: 15px 40px;
-}
-
-.logoContainer img {
-    height: auto!important;
-    position: absolute;
-    width: auto;
-    max-width: 100%;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
-    max-height: 80%;
-}
-
 @media screen and (max-width: 40rem) {
-    .logoContainer img {
-        max-width: 100%;
-    }
-
     .searchBarContainer {
         width: 100%;
         padding: 0 0 10px;

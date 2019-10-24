@@ -1127,7 +1127,8 @@
   },
   "footer-row#3-mobile": {
     "children": [
-      "powered-by"
+      "powered-by",
+      "rich-text#footer"
     ],
     "props": {
       "blockClass": "powered-by"

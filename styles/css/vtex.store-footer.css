@@ -17,7 +17,8 @@
 .rowContainer [class*="paragraph"] {
     font-size: 14px;
     font-weight: normal;
-    margin: 0;
+    margin: 20px 0 0;
+    text-align: left;
 }
 
 .listTitle {
